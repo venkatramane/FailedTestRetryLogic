@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="RetryFailedTestCases" verbose="1">
+
+<listener>
+
+		<listener class-name="Analyzer.MyTransformer"/>
+
+</listener>
+
+    <test name="FailedTestScriptRunMultipleTime">
+    
+
+    
+         <classes>
+         
+             <class name="usingretryAnalyzer.MyTest"/>
+
+          </classes>
+          
+     </test>
+     
+</suite> 
